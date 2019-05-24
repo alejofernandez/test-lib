@@ -1,5 +1,5 @@
 {
-  "name": "test-lib",
+  "name": "@auth0/test-lib",
   "version": "0.0.4",
   "description": "test desc",
   "main": "dist/index.js",

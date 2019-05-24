@@ -173,4 +173,5 @@ $RECYCLE.BIN/
 
 build-output
 lib/*
+dist/*
 ### DO NOT EDIT (Please put any custom additions below this line)
