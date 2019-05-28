@@ -1,7 +1,7 @@
+import { textSync } from 'figlet';
+
 export class Helpers {
   public sayHello(logger: Console): void {
-    logger.log(
-      ' _   _      _ _        __        __         _     _ _ _\n| | | | ___| | | ___   \\ \\      / /__  _ __| | __| | | |\n| |_| |/ _ \\ | |/ _ \\   \\ \\ /\\ / / _ \\|  __| |/ _  | | |\n|  _  |  __/ | | (_) |   \\ V  V / (_) | |  | | (_| |_|_|\n|_| |_|\\___|_|_|\\___/     \\_/\\_/ \\___/|_|  |_|\\__,_(_|_)\n'
-    );
+    logger.log(textSync('hello world!!'));
   }
 }

@@ -1,3 +1,5 @@
 describe('test Helpers end-to-end', () => {
-  it.skip('should return true for 2', () => {});
+  it('should return true for 2', () => {
+    expect(true).toBeTruthy();
+  });
 });
